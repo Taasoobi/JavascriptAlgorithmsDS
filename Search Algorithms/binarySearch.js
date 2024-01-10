@@ -12,14 +12,14 @@ function binarySearch(arr, val){
             start = middle +1;
         }
         middle = Math.floor((start + end) /2);
-        if(arr[middle] == val){
-            return middle;
         }
+    if(arr[middle] == val){
+        return middle;
     }
     return -1; //return -1 if element is not inside array
 }
 
-console.log(binarySearch([2,5,6,9,13,15,28], 15));
+console.log(binarySearch([1,2,3,4,5,6,7], 4));
 /*
 Big O is: Worst and Average Case is O(log n)
 Best Case is O(1)
