@@ -20,3 +20,8 @@ function binarySearch(arr, val){
 }
 
 console.log(binarySearch([2,5,6,9,13,15,28], 15));
+/*
+Big O is: Worst and Average Case is O(log n)
+Best Case is O(1)
+
+*/
