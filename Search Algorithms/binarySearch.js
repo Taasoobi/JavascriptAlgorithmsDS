@@ -1,4 +1,5 @@
 
+//Only works with sorted data
 
 function binarySearch(arr, val){
     let start = 0;
