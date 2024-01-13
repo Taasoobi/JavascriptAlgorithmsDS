@@ -1,3 +1,10 @@
+/*
+Bubble Sort Big O: O(n^2) = average case
+best case = O(n)
+
+*/
+
+
 
 function myBubbleSort(arr){
     let temp = 0;
@@ -32,4 +39,4 @@ function refinedBSort(arr){
     return arr;
 }
 
-console.log(refinedBSort([37,45,29,8]));
+//console.log(refinedBSort([37,45,29,8]));
