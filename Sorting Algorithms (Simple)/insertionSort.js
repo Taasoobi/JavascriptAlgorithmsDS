@@ -1,5 +1,7 @@
 /**
  * Gradually Creates a larger sorted left half
+ * BigO: Worst Case = O(n^2)
+ * if almost all sorted: Best case 0(n)
  */
 
 function myInsertion(arr){
@@ -16,13 +18,14 @@ for(let i = 0; i<arr.length;i++){
 
 function refinedInsertion(arr){
     for(let i =1; i<arr.length; i++){
+        console.log(arr);
         let curr= arr[i];
         for(var j = i-1; j>=0 && arr[j] > curr; j--){
             arr[j+1] = arr[j];
             //console.log(arr);
             }
             arr[j+1] = curr;
-            console.log(arr);
+            //console.log(arr);
         }
         return arr;
     }
