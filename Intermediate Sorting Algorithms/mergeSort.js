@@ -1,3 +1,9 @@
+/**
+ * Big O of Merge Sort
+ * Best, Worst, Average = O(n log n)
+ * Space Complexity = O(n)
+ */
+
 
 function myMergeSort(arr){
     if(arr.length <= 1){return arr;}
@@ -40,15 +46,12 @@ function myMerge(ar1, ar2){
 //console.log(myMerge([1,5,77], [2,14,99, 100]));
 
 //----------------------
-
 function refinedMergeSort(arr){
     if(arr.length <= 1){return arr;}
     let mid = Math.floor(arr.length/2);
     let left = refinedMergeSort(arr.slice(0, mid));
     let right = refinedMergeSort(arr.slice(mid));
     return refinedMerge(left, right);
-    
-
     //return refinedMergeSort(refinedMerge());
 }
 
@@ -69,13 +72,13 @@ while(i<arr1.length){
     results.push(arr1[i]);
     i++;
 }
-
 while(j<arr2.length){
     results.push(arr2[j]);
     j++;
 }
-
 return results;
 }
 
 console.log(refinedMergeSort([10,24,76,73]));
+
+
