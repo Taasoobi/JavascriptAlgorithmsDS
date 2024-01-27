@@ -81,4 +81,3 @@ return results;
 
 console.log(refinedMergeSort([10,24,76,73]));
 
-
