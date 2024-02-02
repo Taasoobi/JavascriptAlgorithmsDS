@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=t3qZR6Qjy-c
+
 /**
  * iterate through each letter, if the index % == 0. Then capitalize arr[i].
  */
@@ -21,4 +23,8 @@ let newStr=""
 return newStr;
 }
 
-console.log(capEveryOther("hey whats popping homie"));
+//console.log(capEveryOther("hey whats popping homie"));
+
+function fixHTML(s){
+
+}
