@@ -1,6 +1,7 @@
 /**
- * 
- * 
+ * Best, Average, Worst Time Complexity = O(nk)
+ * k=number of digits(average)
+ * n=length of array
  * 
  * Does not make comparisons with numbers
  */
