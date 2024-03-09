@@ -30,6 +30,14 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
+ 
+    traverse(){
+        let current = this.head;
+        while(current){ //while current is not null it will return true
+            console.log(current.val);
+            current = current.next;
+        }
+    }
 }
 
 /*
